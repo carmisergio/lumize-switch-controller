@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name SWITCH_INPUT_BOARD-rescue)(type Legacy)(uri ${KIPRJMOD}/SWITCH_INPUT_BOARD-rescue.lib)(options "")(descr ""))
+  (lib (name A00-432-262-450)(type Legacy)(uri "/home/sergio/User KiCad Library/user-symbols/A00-432-262-450.lib")(options "")(descr ""))
+  (lib (name Custom_Jumper)(type Legacy)(uri ${KIPRJMOD}/Custom_Jumper.lib)(options "")(descr ""))
+)

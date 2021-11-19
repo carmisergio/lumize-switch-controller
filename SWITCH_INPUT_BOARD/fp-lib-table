@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name A00-432-262-450)(type KiCad)(uri "/home/sergio/User KiCad Library/user-footprints/A00-432-262-450.pretty")(options "")(descr ""))
+  (lib (name Logo)(type KiCad)(uri ${KIPRJMOD}/Logo.pretty)(options "")(descr ""))
+)
