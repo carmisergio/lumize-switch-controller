@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<export version="D">
+<export version="E">
   <design>
-    <source>/home/sergio/projects/lumize-switch-controller/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch</source>
-    <date>Fri 13 Aug 2021 03:01:57 PM CEST</date>
-    <tool>Eeschema 5.1.10</tool>
+    <source>/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch</source>
+    <date>Sun 13 Mar 2022 12:25:39 PM CET</date>
+    <tool>Eeschema (6.0.2)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -15,101 +15,247 @@
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
       </title_block>
     </sheet>
   </design>
   <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="Device" part="CP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006120447a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006121f64b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>4 Port RJ45: A00-432-262-450</value>
+      <footprint>A00-432-262-450:A00-432-262-450</footprint>
+      <libsource lib="SWITCH_INPUT_BOARD-rescue" part="A00-432-262-450-A00-432-262-450" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000612f5575</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>IDC_02x04</value>
+      <footprint>Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061169a1b</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>IDC_02x04</value>
+      <footprint>Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000611b157a</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>IDC_02x04</value>
+      <footprint>Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000611b416b</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>IDC_02x06</value>
+      <footprint>Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006127576c</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_4X</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Custom_Jumper" part="Jumper_4X" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c5005f</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_2X</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Custom_Jumper" part="Jumper_2X" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b4a3ce</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_2X</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Custom_Jumper" part="Jumper_2X" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061b9bb4e</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_2X</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Custom_Jumper" part="Jumper_2X" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d68b6a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000611cf93b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000611d1ccd</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061226cde</tstamps>
+    </comp>
+    <comp ref="RN1">
+      <value>4x1K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006117231b</tstamps>
+    </comp>
+    <comp ref="RN2">
+      <value>4x1K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006146dc6e</tstamps>
+    </comp>
+    <comp ref="RN3">
+      <value>4x1K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006146edbc</tstamps>
+    </comp>
+    <comp ref="RN4">
+      <value>4x1K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006146f732</tstamps>
+    </comp>
+    <comp ref="RN5">
+      <value>4x10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006183c8ea</tstamps>
+    </comp>
+    <comp ref="RN6">
+      <value>4x10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006183c8b0</tstamps>
+    </comp>
+    <comp ref="RN7">
+      <value>4x10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006183c8b6</tstamps>
+    </comp>
+    <comp ref="RN8">
+      <value>4x10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006183c8bc</tstamps>
+    </comp>
+    <comp ref="RN9">
+      <value>4x10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d1d600</tstamps>
+    </comp>
     <comp ref="U1">
       <value>MCP23017_SO</value>
       <footprint>Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
       <libsource lib="Interface_Expansion" part="MCP23017_SO" description="16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6116BCD9</tstamp>
-    </comp>
-    <comp ref="RN1">
-      <value>R_Pack04</value>
-      <footprint>Resistor_SMD:R_Array_Convex_4x1206</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6117231B</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>10K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61196380</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>IDC_02x04</value>
-      <footprint>Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61169A1B</tstamp>
-    </comp>
-    <comp ref="J2">
-      <value>IDC_02x04</value>
-      <footprint>Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>611B157A</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>IDC_02x04</value>
-      <footprint>Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>611B416B</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>4.7K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>611CF93B</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>4.7K</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>611D1CCD</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>10uF</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6120447A</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>LED</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6121F64B</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>220</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61226CDE</tstamp>
-    </comp>
-    <comp ref="J4">
-      <value>IDC_02x06</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6127576C</tstamp>
+      <tstamps>00000000-0000-0000-0000-00006116bcd9</tstamps>
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="Device_CP">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Device_CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
       <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -119,6 +265,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_02x04_Odd_Even</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -140,6 +287,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_02x06_Odd_Even</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -156,19 +304,32 @@
         <pin num="12" name="Pin_12" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="CP">
-      <description>Polarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>CP_*</fp>
-      </footprints>
+    <libpart lib="Custom_Jumper" part="Jumper_2X">
       <fields>
-        <field name="Reference">C</field>
-        <field name="Value">CP</field>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2X</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Jumper" part="Jumper_4X">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_4X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="LED">
@@ -182,6 +343,7 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -197,10 +359,11 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R_Pack04">
@@ -215,6 +378,7 @@
       <fields>
         <field name="Reference">RN</field>
         <field name="Value">R_Pack04</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="R1.1" type="passive"/>
@@ -237,238 +401,421 @@
         <field name="Reference">U</field>
         <field name="Value">MCP23017_SO</field>
         <field name="Footprint">Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="GPB0" type="BiDi"/>
-        <pin num="2" name="GPB1" type="BiDi"/>
-        <pin num="3" name="GPB2" type="BiDi"/>
-        <pin num="4" name="GPB3" type="BiDi"/>
-        <pin num="5" name="GPB4" type="BiDi"/>
-        <pin num="6" name="GPB5" type="BiDi"/>
-        <pin num="7" name="GPB6" type="BiDi"/>
-        <pin num="8" name="GPB7" type="BiDi"/>
+        <pin num="1" name="GPB0" type="bidirectional"/>
+        <pin num="2" name="GPB1" type="bidirectional"/>
+        <pin num="3" name="GPB2" type="bidirectional"/>
+        <pin num="4" name="GPB3" type="bidirectional"/>
+        <pin num="5" name="GPB4" type="bidirectional"/>
+        <pin num="6" name="GPB5" type="bidirectional"/>
+        <pin num="7" name="GPB6" type="bidirectional"/>
+        <pin num="8" name="GPB7" type="bidirectional"/>
         <pin num="9" name="VDD" type="power_in"/>
         <pin num="10" name="VSS" type="power_in"/>
-        <pin num="11" name="NC" type="NotConnected"/>
+        <pin num="11" name="NC" type="no_connect"/>
         <pin num="12" name="SCK" type="input"/>
-        <pin num="13" name="SDA" type="BiDi"/>
-        <pin num="14" name="NC" type="NotConnected"/>
+        <pin num="13" name="SDA" type="bidirectional"/>
+        <pin num="14" name="NC" type="no_connect"/>
         <pin num="15" name="A0" type="input"/>
         <pin num="16" name="A1" type="input"/>
         <pin num="17" name="A2" type="input"/>
-        <pin num="18" name="~RESET~" type="input"/>
-        <pin num="19" name="INTB" type="3state"/>
-        <pin num="20" name="INTA" type="3state"/>
-        <pin num="21" name="GPA0" type="BiDi"/>
-        <pin num="22" name="GPA1" type="BiDi"/>
-        <pin num="23" name="GPA2" type="BiDi"/>
-        <pin num="24" name="GPA3" type="BiDi"/>
-        <pin num="25" name="GPA4" type="BiDi"/>
-        <pin num="26" name="GPA5" type="BiDi"/>
-        <pin num="27" name="GPA6" type="BiDi"/>
-        <pin num="28" name="GPA7" type="BiDi"/>
+        <pin num="18" name="~{RESET}" type="input"/>
+        <pin num="19" name="INTB" type="tri_state"/>
+        <pin num="20" name="INTA" type="tri_state"/>
+        <pin num="21" name="GPA0" type="bidirectional"/>
+        <pin num="22" name="GPA1" type="bidirectional"/>
+        <pin num="23" name="GPA2" type="bidirectional"/>
+        <pin num="24" name="GPA3" type="bidirectional"/>
+        <pin num="25" name="GPA4" type="bidirectional"/>
+        <pin num="26" name="GPA5" type="bidirectional"/>
+        <pin num="27" name="GPA6" type="bidirectional"/>
+        <pin num="28" name="GPA7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SWITCH_INPUT_BOARD-rescue" part="A00-432-262-450-A00-432-262-450">
+      <footprints>
+        <fp>CONN_A00-432-262-450_EDA</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">A00-432-262-450-A00-432-262-450</field>
+        <field name="Footprint">CONN_A00-432-262-450_EDA</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="A1" type="unspecified"/>
+        <pin num="A2" name="A2" type="unspecified"/>
+        <pin num="A3" name="A3" type="unspecified"/>
+        <pin num="A4" name="A4" type="unspecified"/>
+        <pin num="A5" name="A5" type="unspecified"/>
+        <pin num="A6" name="A6" type="unspecified"/>
+        <pin num="A7" name="A7" type="unspecified"/>
+        <pin num="A8" name="A8" type="unspecified"/>
+        <pin num="B1" name="B1" type="unspecified"/>
+        <pin num="B2" name="B2" type="unspecified"/>
+        <pin num="B3" name="B3" type="unspecified"/>
+        <pin num="B4" name="B4" type="unspecified"/>
+        <pin num="B5" name="B5" type="unspecified"/>
+        <pin num="B6" name="B6" type="unspecified"/>
+        <pin num="B7" name="B7" type="unspecified"/>
+        <pin num="B8" name="B8" type="unspecified"/>
+        <pin num="C1" name="C1" type="unspecified"/>
+        <pin num="C2" name="C2" type="unspecified"/>
+        <pin num="C3" name="C3" type="unspecified"/>
+        <pin num="C4" name="C4" type="unspecified"/>
+        <pin num="C5" name="C5" type="unspecified"/>
+        <pin num="C6" name="C6" type="unspecified"/>
+        <pin num="C7" name="C7" type="unspecified"/>
+        <pin num="C8" name="C8" type="unspecified"/>
+        <pin num="D1" name="D1" type="unspecified"/>
+        <pin num="D2" name="D2" type="unspecified"/>
+        <pin num="D3" name="D3" type="unspecified"/>
+        <pin num="D4" name="D4" type="unspecified"/>
+        <pin num="D5" name="D5" type="unspecified"/>
+        <pin num="D6" name="D6" type="unspecified"/>
+        <pin num="D7" name="D7" type="unspecified"/>
+        <pin num="D8" name="D8" type="unspecified"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="Connector_Generic">
-      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Custom_Jumper">
+      <uri>/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/Custom_Jumper.lib</uri>
     </library>
     <library logical="Device">
-      <uri>/usr/share/kicad/library/Device.lib</uri>
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Interface_Expansion">
-      <uri>/usr/share/kicad/library/Interface_Expansion.lib</uri>
+      <uri>/usr/share/kicad/symbols//Interface_Expansion.kicad_sym</uri>
+    </library>
+    <library logical="SWITCH_INPUT_BOARD-rescue">
+      <uri>/home/sergio/projects/lumize-switch-controller/hardware/SWITCH_INPUT_BOARD/SWITCH_INPUT_BOARD-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="PULL">
-      <node ref="J1" pin="3"/>
-      <node ref="J2" pin="3"/>
-      <node ref="J3" pin="3"/>
+    <net code="1" name="A0">
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RN9" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="A0" pintype="input"/>
     </net>
-    <net code="2" name="SDA">
-      <node ref="J2" pin="7"/>
-      <node ref="J3" pin="7"/>
-      <node ref="R2" pin="2"/>
-      <node ref="J1" pin="7"/>
-      <node ref="U1" pin="13"/>
+    <net code="2" name="A1">
+      <node ref="JP1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RN9" pin="2" pinfunction="R2.1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="A1" pintype="input"/>
     </net>
-    <net code="3" name="TEST">
-      <node ref="J2" pin="5"/>
-      <node ref="J3" pin="5"/>
-      <node ref="J1" pin="5"/>
+    <net code="3" name="A2">
+      <node ref="JP1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="RN9" pin="3" pinfunction="R3.1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="A2" pintype="input"/>
     </net>
-    <net code="4" name="SCL">
-      <node ref="U1" pin="12"/>
-      <node ref="J1" pin="8"/>
-      <node ref="J3" pin="8"/>
-      <node ref="J2" pin="8"/>
-      <node ref="R3" pin="2"/>
+    <net code="4" name="AAUX1">
+      <node ref="J1" pin="A6" pinfunction="A6" pintype="unspecified"/>
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
     </net>
-    <net code="5" name="PUSH">
-      <node ref="J1" pin="4"/>
-      <node ref="J3" pin="4"/>
-      <node ref="J2" pin="4"/>
+    <net code="5" name="AAUX2">
+      <node ref="J1" pin="A7" pinfunction="A7" pintype="unspecified"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
     </net>
-    <net code="6" name="RESET">
-      <node ref="U1" pin="18"/>
-      <node ref="R1" pin="1"/>
-      <node ref="J1" pin="6"/>
-      <node ref="J3" pin="6"/>
-      <node ref="J2" pin="6"/>
+    <net code="6" name="AAUX3">
+      <node ref="J1" pin="A8" pinfunction="A8" pintype="unspecified"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
     </net>
-    <net code="7" name="VCC">
-      <node ref="U1" pin="9"/>
-      <node ref="C1" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="J1" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="J2" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R3" pin="1"/>
+    <net code="7" name="ASW1">
+      <node ref="J1" pin="A1" pinfunction="A1" pintype="unspecified"/>
+      <node ref="RN1" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN5" pin="4" pinfunction="R4.1" pintype="passive"/>
     </net>
-    <net code="8" name="DAUX3">
-      <node ref="J4" pin="12"/>
+    <net code="8" name="ASW2">
+      <node ref="J1" pin="A2" pinfunction="A2" pintype="unspecified"/>
+      <node ref="RN1" pin="2" pinfunction="R2.1" pintype="passive"/>
+      <node ref="RN5" pin="3" pinfunction="R3.1" pintype="passive"/>
     </net>
-    <net code="9" name="AAUX1">
-      <node ref="J4" pin="1"/>
+    <net code="9" name="ASW3">
+      <node ref="J1" pin="A3" pinfunction="A3" pintype="unspecified"/>
+      <node ref="RN1" pin="3" pinfunction="R3.1" pintype="passive"/>
+      <node ref="RN5" pin="2" pinfunction="R2.1" pintype="passive"/>
     </net>
-    <net code="10" name="AAUX3">
-      <node ref="J4" pin="5"/>
+    <net code="10" name="ASW4">
+      <node ref="J1" pin="A4" pinfunction="A4" pintype="unspecified"/>
+      <node ref="JP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RN1" pin="4" pinfunction="R4.1" pintype="passive"/>
+      <node ref="RN5" pin="1" pinfunction="R1.1" pintype="passive"/>
     </net>
-    <net code="11" name="CAUX1">
-      <node ref="J4" pin="7"/>
+    <net code="11" name="BAUX1">
+      <node ref="J1" pin="B6" pinfunction="B6" pintype="unspecified"/>
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
     </net>
-    <net code="12" name="CAUX2">
-      <node ref="J4" pin="9"/>
+    <net code="12" name="BAUX2">
+      <node ref="J1" pin="B7" pinfunction="B7" pintype="unspecified"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
     </net>
-    <net code="13" name="CAUX3">
-      <node ref="J4" pin="11"/>
+    <net code="13" name="BAUX3">
+      <node ref="J1" pin="B8" pinfunction="B8" pintype="unspecified"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
-    <net code="14" name="DAUX2">
-      <node ref="J4" pin="10"/>
+    <net code="14" name="BSW1">
+      <node ref="J1" pin="B1" pinfunction="B1" pintype="unspecified"/>
+      <node ref="RN2" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN6" pin="4" pinfunction="R4.1" pintype="passive"/>
     </net>
-    <net code="15" name="BAUX3">
-      <node ref="J4" pin="6"/>
+    <net code="15" name="BSW2">
+      <node ref="J1" pin="B2" pinfunction="B2" pintype="unspecified"/>
+      <node ref="RN2" pin="2" pinfunction="R2.1" pintype="passive"/>
+      <node ref="RN6" pin="3" pinfunction="R3.1" pintype="passive"/>
     </net>
-    <net code="16" name="BAUX1">
-      <node ref="J4" pin="2"/>
+    <net code="16" name="BSW3">
+      <node ref="J1" pin="B3" pinfunction="B3" pintype="unspecified"/>
+      <node ref="RN2" pin="3" pinfunction="R3.1" pintype="passive"/>
+      <node ref="RN6" pin="2" pinfunction="R2.1" pintype="passive"/>
     </net>
-    <net code="17" name="AAUX2">
-      <node ref="J4" pin="3"/>
+    <net code="17" name="BSW4">
+      <node ref="J1" pin="B4" pinfunction="B4" pintype="unspecified"/>
+      <node ref="JP2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RN2" pin="4" pinfunction="R4.1" pintype="passive"/>
+      <node ref="RN6" pin="1" pinfunction="R1.1" pintype="passive"/>
     </net>
-    <net code="18" name="DAUX1">
-      <node ref="J4" pin="8"/>
+    <net code="18" name="CAUX1">
+      <node ref="J1" pin="C6" pinfunction="C6" pintype="unspecified"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="19" name="BAUX2">
-      <node ref="J4" pin="4"/>
+    <net code="19" name="CAUX2">
+      <node ref="J1" pin="C7" pinfunction="C7" pintype="unspecified"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(D1-Pad2)">
-      <node ref="R4" pin="1"/>
-      <node ref="D1" pin="2"/>
+    <net code="20" name="CAUX3">
+      <node ref="J1" pin="C8" pinfunction="C8" pintype="unspecified"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="21" name="GPB6">
-      <node ref="U1" pin="7"/>
+    <net code="21" name="CSW1">
+      <node ref="J1" pin="C1" pinfunction="C1" pintype="unspecified"/>
+      <node ref="RN3" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN7" pin="4" pinfunction="R4.1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(RN1-Pad4)">
-      <node ref="RN1" pin="4"/>
+    <net code="22" name="CSW2">
+      <node ref="J1" pin="C2" pinfunction="C2" pintype="unspecified"/>
+      <node ref="RN3" pin="2" pinfunction="R2.1" pintype="passive"/>
+      <node ref="RN7" pin="3" pinfunction="R3.1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(RN1-Pad5)">
-      <node ref="RN1" pin="5"/>
+    <net code="23" name="CSW3">
+      <node ref="J1" pin="C3" pinfunction="C3" pintype="unspecified"/>
+      <node ref="RN3" pin="3" pinfunction="R3.1" pintype="passive"/>
+      <node ref="RN7" pin="2" pinfunction="R2.1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(RN1-Pad6)">
-      <node ref="RN1" pin="6"/>
+    <net code="24" name="CSW4">
+      <node ref="J1" pin="C4" pinfunction="C4" pintype="unspecified"/>
+      <node ref="JP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RN3" pin="4" pinfunction="R4.1" pintype="passive"/>
+      <node ref="RN7" pin="1" pinfunction="R1.1" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(RN1-Pad7)">
-      <node ref="RN1" pin="7"/>
+    <net code="25" name="DAUX1">
+      <node ref="J1" pin="D6" pinfunction="D6" pintype="unspecified"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(RN1-Pad8)">
-      <node ref="RN1" pin="8"/>
+    <net code="26" name="DAUX2">
+      <node ref="J1" pin="D7" pinfunction="D7" pintype="unspecified"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(U1-Pad19)">
-      <node ref="U1" pin="19"/>
+    <net code="27" name="DAUX3">
+      <node ref="J1" pin="D8" pinfunction="D8" pintype="unspecified"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
+    <net code="28" name="DSW1">
+      <node ref="J1" pin="D1" pinfunction="D1" pintype="unspecified"/>
+      <node ref="RN4" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="RN8" pin="4" pinfunction="R4.1" pintype="passive"/>
     </net>
-    <net code="29" name="GPB0">
-      <node ref="U1" pin="1"/>
+    <net code="29" name="DSW2">
+      <node ref="J1" pin="D2" pinfunction="D2" pintype="unspecified"/>
+      <node ref="RN4" pin="2" pinfunction="R2.1" pintype="passive"/>
+      <node ref="RN8" pin="3" pinfunction="R3.1" pintype="passive"/>
     </net>
-    <net code="30" name="GPB2">
-      <node ref="U1" pin="3"/>
+    <net code="30" name="DSW3">
+      <node ref="J1" pin="D3" pinfunction="D3" pintype="unspecified"/>
+      <node ref="RN4" pin="3" pinfunction="R3.1" pintype="passive"/>
+      <node ref="RN8" pin="2" pinfunction="R2.1" pintype="passive"/>
     </net>
-    <net code="31" name="GPB4">
-      <node ref="U1" pin="5"/>
+    <net code="31" name="DSW4">
+      <node ref="J1" pin="D4" pinfunction="D4" pintype="unspecified"/>
+      <node ref="JP3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RN4" pin="4" pinfunction="R4.1" pintype="passive"/>
+      <node ref="RN8" pin="1" pinfunction="R1.1" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(RN1-Pad3)">
-      <node ref="RN1" pin="3"/>
+    <net code="32" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RN9" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="RN9" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="RN9" pin="8" pinfunction="R1.2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VSS" pintype="power_in"/>
     </net>
     <net code="33" name="GPA0">
-      <node ref="U1" pin="21"/>
+      <node ref="RN1" pin="8" pinfunction="R1.2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GPA0" pintype="bidirectional"/>
     </net>
-    <net code="34" name="GPA2">
-      <node ref="U1" pin="23"/>
+    <net code="34" name="GPA1">
+      <node ref="RN1" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="GPA1" pintype="bidirectional"/>
     </net>
-    <net code="35" name="GPA4">
-      <node ref="U1" pin="25"/>
+    <net code="35" name="GPA2">
+      <node ref="RN1" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="GPA2" pintype="bidirectional"/>
     </net>
-    <net code="36" name="GPA6">
-      <node ref="U1" pin="27"/>
+    <net code="36" name="GPA3">
+      <node ref="RN1" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="GPA3" pintype="bidirectional"/>
     </net>
-    <net code="37" name="Net-(U1-Pad11)">
-      <node ref="U1" pin="11"/>
+    <net code="37" name="GPA4">
+      <node ref="RN2" pin="8" pinfunction="R1.2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="GPA4" pintype="bidirectional"/>
     </net>
-    <net code="38" name="Net-(U1-Pad14)">
-      <node ref="U1" pin="14"/>
+    <net code="38" name="GPA5">
+      <node ref="RN2" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="GPA5" pintype="bidirectional"/>
     </net>
-    <net code="39" name="GPB1">
-      <node ref="U1" pin="2"/>
+    <net code="39" name="GPA6">
+      <node ref="RN2" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="GPA6" pintype="bidirectional"/>
     </net>
-    <net code="40" name="GPA1">
-      <node ref="U1" pin="22"/>
+    <net code="40" name="GPA7">
+      <node ref="RN2" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="GPA7" pintype="bidirectional"/>
     </net>
-    <net code="41" name="GPA3">
-      <node ref="U1" pin="24"/>
+    <net code="41" name="GPB0">
+      <node ref="RN3" pin="8" pinfunction="R1.2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GPB0" pintype="bidirectional"/>
     </net>
-    <net code="42" name="GPA5">
-      <node ref="U1" pin="26"/>
+    <net code="42" name="GPB1">
+      <node ref="RN3" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GPB1" pintype="bidirectional"/>
     </net>
-    <net code="43" name="GPA7">
-      <node ref="U1" pin="28"/>
+    <net code="43" name="GPB2">
+      <node ref="RN3" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GPB2" pintype="bidirectional"/>
     </net>
     <net code="44" name="GPB3">
-      <node ref="U1" pin="4"/>
+      <node ref="RN3" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GPB3" pintype="bidirectional"/>
     </net>
-    <net code="45" name="GPB5">
-      <node ref="U1" pin="6"/>
+    <net code="45" name="GPB4">
+      <node ref="RN4" pin="8" pinfunction="R1.2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GPB4" pintype="bidirectional"/>
     </net>
-    <net code="46" name="GPB7">
-      <node ref="U1" pin="8"/>
+    <net code="46" name="GPB5">
+      <node ref="RN4" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GPB5" pintype="bidirectional"/>
     </net>
-    <net code="47" name="Net-(RN1-Pad1)">
-      <node ref="RN1" pin="1"/>
+    <net code="47" name="GPB6">
+      <node ref="RN4" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GPB6" pintype="bidirectional"/>
     </net>
-    <net code="48" name="Net-(RN1-Pad2)">
-      <node ref="RN1" pin="2"/>
+    <net code="48" name="GPB7">
+      <node ref="RN4" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GPB7" pintype="bidirectional"/>
     </net>
-    <net code="49" name="GND">
-      <node ref="U1" pin="10"/>
-      <node ref="J3" pin="2"/>
-      <node ref="D1" pin="1"/>
-      <node ref="J1" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="C1" pin="2"/>
+    <net code="49" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="50" name="A0">
-      <node ref="U1" pin="15"/>
+    <net code="50" name="Net-(JP1-Pad7)">
+      <node ref="JP1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="RN9" pin="4" pinfunction="R4.1" pintype="passive"/>
     </net>
-    <net code="51" name="A1">
-      <node ref="U1" pin="16"/>
+    <net code="51" name="PULL">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="JP4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="RN5" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="RN5" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="RN5" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="RN5" pin="8" pinfunction="R1.2" pintype="passive"/>
+      <node ref="RN6" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="RN6" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="RN6" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="RN6" pin="8" pinfunction="R1.2" pintype="passive"/>
+      <node ref="RN7" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="RN7" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="RN7" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="RN7" pin="8" pinfunction="R1.2" pintype="passive"/>
+      <node ref="RN8" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="RN8" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="RN8" pin="7" pinfunction="R2.2" pintype="passive"/>
+      <node ref="RN8" pin="8" pinfunction="R1.2" pintype="passive"/>
     </net>
-    <net code="52" name="A2">
-      <node ref="U1" pin="17"/>
+    <net code="52" name="PUSH">
+      <node ref="J1" pin="A5" pinfunction="A5" pintype="unspecified"/>
+      <node ref="J1" pin="B5" pinfunction="B5" pintype="unspecified"/>
+      <node ref="J1" pin="C5" pinfunction="C5" pintype="unspecified"/>
+      <node ref="J1" pin="D5" pinfunction="D5" pintype="unspecified"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="53" name="RESET">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="RN9" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="54" name="SCL">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="55" name="SDA">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="TEST">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP3" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="57" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="JP1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="JP1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="JP4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="58" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="INTB" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="INTA" pintype="tri_state+no_connect"/>
     </net>
   </nets>
 </export>

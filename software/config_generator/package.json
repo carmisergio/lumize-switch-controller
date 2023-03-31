@@ -1,0 +1,17 @@
+{
+  "name": "config_generator",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "js-yaml": "^4.1.0",
+    "prompt": "^1.3.0"
+  }
+}
